@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayzpedia Bot Store | WhatsApp Bot Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fab fa-whatsapp"></i>
+                <h1>BAYZPEDIA<span class="accent">.STORE</span></h1>
+            </div>
+            <a href="/admin" class="admin-btn">
+                <i class="fas fa-lock"></i> Admin
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <h2>WhatsApp Bot <span class="accent">Premium</span></h2>
+            <p>Script bot WhatsApp multi device dengan fitur lengkap. Update berkala & support 24/7.</p>
+            <div class="stats">
+                <div class="stat">
+                    <span class="number">50+</span>
+                    <span class="label">Fitur Tersedia</span>
+                </div>
+                <div class="stat">
+                    <span class="number">100%</span>
+                    <span class="label">Working</span>
+                </div>
+                <div class="stat">
+                    <span class="number">24/7</span>
+                    <span class="label">Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUK AKAN DITAMPILKAN DI SINI -->
+    <main class="container" id="product-list">
+        <!-- Produk akan diload via JavaScript -->
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i> Memuat produk...
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Bayzpedia Bot Store. All rights reserved.</p>
+            <p>Contact: <a href="https://wa.me/628xxxxxxxxxx" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a> | 
+                       <a href="https://t.me/xxxxxxxx" target="_blank"><i class="fab fa-telegram"></i> Telegram</a></p>
+        </div>
+    </footer>
+
+    <!-- MODAL DETAIL PRODUK -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
+</body>
+</html>
