@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Shorekeeper Multi Platform • Multi Device",
+    "price": 55000,
+    "type": "multi_device",
+    "features": 25,
+    "thumbnail_url": "https://files.catbox.moe/cqh3vq.jpg",
+    "whatsapp_link": "https://wa.me/62895406178006?text=Halo,%20saya%20mau%20beli%20WhatsApp%20Bot%20Multi%20Device%20Pro",
+    "telegram_link": "https://t.me/altheric"
+  },
+  {
+    "id": 2,
+    "title": "Shorekeeper Simple Bot",
+    "price": 20000,
+    "type": "single_device",
+    "features": 15,
+    "thumbnail_url": "https://files.catbox.moe/rlb49o.jpg",
+    "whatsapp_link": "https://wa.me/62895406178006?text=Halo,%20saya%20mau%20beli%20WhatsApp%20Bot%20Simple",
+    "telegram_link": "https://t.me/altheric"
+  }
+]
